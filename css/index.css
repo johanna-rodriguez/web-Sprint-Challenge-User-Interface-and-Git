@@ -215,26 +215,49 @@ footer nav a {
 
 
 /* about.html styling */
+.about-top-content{
+    border-bottom: 1px dashed black;
+}
+
+.about-top-content h2, .about-top-content p{
+    margin: 0 20px 20px 20px;
+
+}
 
 .about-middle-content{
     display: flex;
-    /* flex-wrap: wrap; */
     flex-flow: row wrap;
     justify-content: space-between;
-    margin: 20px;
+    margin: 20px 20px 0 20px;
 }
 .tile-container{
     display: flex;
     flex-direction: column;
     width: 48%;
+    border-bottom: 1px dashed black;
+    align-items: flex-start;
+    padding-bottom: 20px;
+    margin: 20px 0 50px 0;
 }
 
+.tile-container h2{
+    margin-top: 10px;
+}
+
+.tile-container p{
+    margin-bottom: 20px;
+}
 
 .about-pic-button{
     border: black solid;
-    padding: 5px 20px;
+    padding: 10px 20px;
     border-radius: 12px;
     color: black;
     text-decoration: none;
-    margin: 4px 2px;
+       
 }
+
+.about-bottom-content h2, .about-bottom-content p{
+    margin: 0px 20px 20px 20px;
+}
+
