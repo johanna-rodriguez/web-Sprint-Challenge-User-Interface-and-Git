@@ -71,6 +71,32 @@ p {
     margin: 0 auto;
 }
 
+.header-wrapper{
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    padding: 20px 0 35px 0;
+   
+}
+
+.header-wrapper nav{
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    width: 70%;
+}
+
+.header-wrapper nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.jumbo-img{
+    padding-bottom: 25px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +138,46 @@ p {
     justify-content: center;
 }
 
+#box1{
+    background: teal;
+}
+
+#box2{
+    background: gold;
+}
+
+#box3{
+    background: cadetblue;
+}
+
+#box4{
+    background: coral;
+}
+
+#box5{
+    background: crimson;
+}
+
+#box6{
+    background: forestgreen;
+}
+
+#box7{
+    background: darkorchid;
+}
+
+#box8{
+    background: hotpink;
+}
+
+#box9{
+    background: indigo;
+}
+
+#box10{
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -144,3 +210,54 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+
+
+/* about.html styling */
+.about-top-content{
+    border-bottom: 1px dashed black;
+}
+
+.about-top-content h2, .about-top-content p{
+    margin: 0 20px 20px 20px;
+
+}
+
+.about-middle-content{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 20px 20px 0 20px;
+}
+.tile-container{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    border-bottom: 1px dashed black;
+    align-items: flex-start;
+    padding-bottom: 20px;
+    margin: 20px 0 50px 0;
+}
+
+.tile-container h2{
+    margin-top: 10px;
+}
+
+.tile-container p{
+    margin-bottom: 20px;
+}
+
+.about-pic-button{
+    border: black solid;
+    padding: 10px 20px;
+    border-radius: 12px;
+    color: black;
+    text-decoration: none;
+       
+}
+
+.about-bottom-content h2, .about-bottom-content p{
+    margin: 0px 20px 20px 20px;
+}
+
